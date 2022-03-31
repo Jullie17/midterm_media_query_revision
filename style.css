@@ -1,0 +1,607 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFFFFF;
+  /*font-family: 'Quicksand';*/
+  background: url("libraries/bg_2.jpg") no-repeat center fixed;
+  background-size: cover;
+  /**font-weight: 100;
+  line-height: 0.5;**/
+  margin: 0px;
+  padding: 0 10vw 0 10vw; /* Added padding to the sides of the site */
+}
+
+ul {
+  margin: 0;
+  background-color: white;/*#FCD744;*/
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #FA7B53;
+  border-width: 3px;
+}
+/**a li{
+  display:block;
+  color: blue;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration:underline;
+  font-family: "Open Sans";
+}
+a li:hover{
+  background-color:gold;
+  border-radius: 5px;
+} **/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-family: "Comfortaa";
+}
+
+a li:hover{
+  background-color: gold;
+  border-radius: 10px;
+}
+li a:hover {
+  background-color: #BBD444;
+  border-radius: 5px;
+}
+
+a, a:default, a:visited, a:active{
+  color: white;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #FCD744;
+  border-radius: 30px;
+  border-style: dashed;
+  border-color: #FA7B53;
+  border-width: 8px;
+}
+
+.flex-container > div {
+  font-family: "Quicksand";
+  font-weight: bold;
+  background-color: none;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  line-height: 25px;
+  font-size: 30px;
+}
+.flex-container a, a:default, a:visited, a:active{
+  color: navy;
+  text-decoration: none;
+}
+
+.flex-container a:hover{
+  color: white;
+}
+
+/* Big Heading(Title) of my Blog! Huge fonts */
+h1{
+  /**font-family: 'Comfortaa';**/
+  font-size: 20em;
+  color: tomato;
+  /*color: #4F3F84;*/
+  text-align: center;
+  line-height:0.5;
+}
+
+p{
+  font-family:'Comfortaa';
+  font-weight: 10;
+  margin: 10px;
+  color: #000000;
+}
+p1{
+  font-family: 'Comfortaa';
+  margin: 20px;
+  color: #000000;
+}
+
+
+/* classes: changing fonts (comfortaa, quicksand, open sans) */
+.comfortaa{
+  font-family: 'Comfortaa';
+}
+.quicksand{
+  font-family: 'Quicksand';
+}
+
+/* Class to change the font in black.
+   Used in "Jullie" in Heading of the blog */
+
+
+
+
+/* Big Heading(Title) of my Blog! Huge fonts */
+h1 {
+  /**font-family: 'Comfortaa';**/
+  font-size: 30vmin;
+  color: tomato;
+  text-align: center;
+  /* line-height:0.5; */
+  line-height: 0.7em;
+}
+h4{
+  font-family:"Comfortaa";
+  font-size: 9vmin;
+  color: #FFC342;
+  text-align: center;
+  /* line-height:0.5; */
+  line-height: 0.7em;
+}
+h2{
+  font-family: "Quicksand";
+  font-size: 4.3vmin;
+  font-weight: 800;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #61B087;
+}
+h5{
+  font-family: "Quicksand";
+  font-size: 3.5vmin;
+  font-weight: bold;
+  color: #2E354E;
+  text-align: center;
+}
+.parentBox a, a:default, a:visited, a:active{
+  text-decoration: underline;
+  font-size: 4vmin;
+  background-color: #3686C9;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-weight: 20;
+  margin: 10px;
+  color: #000000;
+}
+
+
+h3 {
+  font-family: 'Comfortaa';
+  font-size: 100px;
+  margin: 20px;
+  color: #3D90D1;
+}
+
+/* classes: changing fonts (comfortaa, quicksand, open sans) */
+.comfortaa {
+  font-family: 'Comfortaa';
+}
+
+.quicksand {
+  font-family: 'Quicksand';
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+.opensans{
+  font-family: 'Open Sans'
+}
+
+/* Class to change the font in black.
+   Used in "Jullie" in Heading of the blog */
+.smaller{
+  font-family: "Open Sans";
+  font-size: 1.5vmin;
+}
+.color_change {
+  color: #000000;
+}
+.color_blue{
+  color: #195E8E;
+}
+.color_pink{
+  color:#DD4470;
+}
+.color_green{
+  color: #3FB75E;
+}
+.color_white{
+  color: #FFFFFF;
+}
+
+.menubar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  background-color: gold;
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: tomato;
+}
+
+.menus {
+  border-style: dotted;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: transparent;
+
+}
+
+.menus:hover {
+  border-style: solid;
+  border-color: white;
+  background-color: #BBD444;
+}
+
+.home_bg_img{
+  background-image: url('ny_street.jpg');
+}
+
+/* CONTENT SECTIONS */
+
+.newLeftSection a:hover{
+  border-style: solid;
+  border-radius: 20px;
+  border-color: gold;
+}
+
+a:active{
+  color: gold;
+}
+.menutop{
+  justify-content;
+
+}
+.listing{
+  align-content: space-between;
+}
+
+
+.newContainer ul {
+  margin: 0;
+}
+
+.newContainer li{
+  margin: 0;
+  font-family: 'Open Sans';
+  color: black;
+  font-weight: 5;
+  font-size: 3vmin;
+}
+.newContainer p {
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 10;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid white;
+}
+
+.newContainer {
+  display: flex;
+  padding: 10px;
+  gap: 15px; /* Used to place gaps between the left and right content section */
+  background-color: #BBBD44;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #FCD744;
+}
+
+.foodimgContainer{
+  display: flex;
+  padding: 10px;
+  gap: 15px; /* Used to place gaps between the left and right content section */
+  background-color: none;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: transparent;
+}
+
+.newLeftSection {
+  width: 30%; /* Used to divide the space in the "newContainer" */
+}
+.foodLeftSection{
+  width: 50%;
+}
+
+.newRightSection {
+  /* width: 70%; */ /* Used to divide the space in the "newContainer" */ */
+  display: flex;
+  gap: 15px; /* Used to place gaps between the three columns on the right side of "newRightColumn" */
+}
+.foodRightSection{
+  width: 50%;
+  display:flex;
+  gap: 20px;
+}
+
+.newLeftColumn {
+  display;flex;
+  gap:5px;
+  flex-direction: column;
+  flex-basis:100%
+}
+
+.newRightColumn {
+  display: flex;
+  gap: 15px; /* Used to place gaps between the individual pieces of content */
+  flex-direction: column;
+  flex-basis: 100%; /* We can use this to force all three columns to be the same width */
+}
+
+.newRightColumn img {
+  width: 100%; /* PROF NOTE: We use this to make sure any images in our columns are scaled to the full size of the column */
+  border-style: dashed;
+  border-color: solid;
+  border-radius: 20px;
+  border-color: white;
+  border-width: 3px;
+}
+
+.foodRightSection img{
+  width: 45%;
+}
+
+.newLeftSection img {
+  width: 100%; /* PROF NOTE: We use this to make sure any images in our columns are scaled to the full size of the column */
+  border-style: dashed;
+  /* border-color: solid; */
+  border-radius: 20px;
+  border-color: white;
+  border-width: 3px;
+}
+
+.newRightColumn a:hover img, .newRightColumn a:hover p{
+  border-style: solid;
+  border-width: 3px;
+  /* border-radius: 20px; */
+  border-color: gold;
+}
+
+/*.rectangular{
+  width:100%;
+}
+.rectangular img{
+  width: 30%;
+}*/
+
+
+
+.hr_dot{
+  border-top: 10px dotted;
+  color:#3D90D1;
+  border-bottom: 0;
+}
+.hr_dotp{
+  border-top: 10px dotted;
+  color: #842D73;
+  border-bottom: 0;
+}
+.hr_solid{
+  border-top: 5px solid;
+  color: #A07BE6;
+
+}
+
+.back{
+  position: absolute;
+  text-decoration: underline overline;
+  font-size: 3vmin;
+  color: #FF6935;
+  top: 2%;
+  left:10%
+}
+
+
+
+
+
+
+/** --------------------------------------------------------------------**/
+
+.widget {
+  display: flex;
+	width: 100%;
+	max-width: 1200px;
+	border-radius: 20px;
+	/*box-shadow: 0 15px 30px 0 rgba(0,0,0, 0.1);*/
+	background-color: #FAF4E4;
+	padding: 30px;
+	margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 20px;;
+	font-size: 2.5vmin;
+  gap: 15px;
+}
+/*.w_firstRow{
+  width:100%;
+  gap: 0px;
+}*/
+.w_secondRow{
+  height:50%;
+}
+/*.w_leftColumn{
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  flex-basis: 100%;
+}*/
+.widget > * + * {
+	margin-top: 1em;
+}
+
+.widget h2 {
+  font-family:"Comfortaa";
+	font-size: 4vmin;
+	line-height: 1;
+}
+
+.widget code {
+	display: inline-block;
+	padding: 0.1em 0.25em;
+	border-radius: 3px;
+	background-color: #FA7B53;
+  color: #FAF4E4;
+}
+
+/*.widget strong {
+	font-family:"Open Sans":
+}*/
+
+.widget img{
+  width: 50%;
+  align-items: center;
+}
+
+.parentBox {
+  display: flex;
+  padding: 10px;
+  gap: 15px; /* Used to place gaps between the left and right content section */
+  background-color: transparent;/*#2AD4AE;*/
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #337FE7;
+}
+.onerow{
+  width:100%;
+  flex-direction: row;
+}
+.onerow img{
+  width: 100%;
+}
+.onerow a, a:default, a:visited, a:active{
+  color: tomato;
+  text-decoration: none;
+}
+.secondParentBox {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: none;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #2AD4AE;
+  border-width: 4px;
+}
+.secondParentBox img {
+  background-color: none;
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+  /*margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;*/
+}
+
+
+
+.rightRow a:hover{
+  border-style: solid;
+  border-radius: 20px;
+  border-color: gold;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/*@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}*/
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  *{
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #FFFFFF;
+    /*font-family: 'Quicksand';*/
+    background: url("libraries/bg_2.jpg") no-repeat center fixed;
+    background-size: cover;
+    /**font-weight: 100;
+    line-height: 0.5;**/
+    margin: 0px;
+    padding: 0 10vw 0 10vw; /* Added padding to the sides of the site */
+  }
+  /*h4{
+    font-family:"Comfortaa";
+    font-size: 5vmin;
+    color: #FFC342;
+    text-align: center;
+    /* line-height:0.5; */
+    /*line-height: 0.7em;
+  }*/
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #FCD744;
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: #FA7B53;
+    border-width: 8px;
+  }
+
+  .flex-container > div {
+    font-family: "Quicksand";
+    font-weight: bold;
+    background-color: none;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    line-height: 25px;
+    font-size: 30px;
+  }
+  .flex-container a, a:default, a:visited, a:active{
+    color: navy;
+    text-decoration: none;
+  }
+
+  .flex-container a:hover{
+    color: white;
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+}
