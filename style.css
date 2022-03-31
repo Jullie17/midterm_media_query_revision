@@ -595,7 +595,7 @@ a:active{
     color: white;
   }
   .column {
-    flex: 50%;
+    flex: 100%;
     max-width: 100%;
   }
   .column img {
