@@ -556,14 +556,14 @@ a:active{
     margin: 0px;
     padding: 0 10vw 0 10vw; /* Added padding to the sides of the site */
   }
-  /*h4{
+  h4{
     font-family:"Comfortaa";
     font-size: 5vmin;
     color: #FFC342;
     text-align: center;
     /* line-height:0.5; */
-    /*line-height: 0.7em;
-  }*/
+    line-height: 0.7em;
+  }
 
   .flex-container {
     display: flex;
@@ -584,7 +584,7 @@ a:active{
     text-align: center;
     justify-content: center;
     line-height: 25px;
-    font-size: 30px;
+    font-size: 18px;
   }
   .flex-container a, a:default, a:visited, a:active{
     color: navy;
@@ -595,7 +595,7 @@ a:active{
     color: white;
   }
   .column {
-    flex: 100%;
+    flex: 50%;
     max-width: 100%;
   }
   .column img {
