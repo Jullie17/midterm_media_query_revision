@@ -1,3 +1,6 @@
+/* original style css + midterm mobile revision style css
+  from line 3 - 535 : original style css
+  from line 539 : midterm mobile revision style css */
 *{
   box-sizing: border-box;
 }
@@ -532,15 +535,10 @@ a:active{
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-/*@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}*/
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/** -------------------------------midterm website mobile revision --------------------------------------------**/
+
+/* shrink to two columns from four columns when the size is shrinked */
 @media screen and (max-width: 600px) {
   *{
     box-sizing: border-box;
